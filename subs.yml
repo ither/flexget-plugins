@@ -1,0 +1,25 @@
+tasks: 
+  argenteamSubsHD:
+    rss: http://www.argenteam.net/rss/portal_series_subtitles.xml
+    series:
+      - Agents of SHIELD
+      - Criminal Minds
+      - Game Of Thrones
+      - Agent Carter
+    argenteam:
+      quality: hd
+    download:
+      path: /srv/samba/public/
+
+  argenteamSubsSD:
+    rss: http://www.argenteam.net/rss/portal_series_subtitles.xml
+    series:
+      - The Big Bang Theory
+      - Agent Carter
+    argenteam:
+      quality: sd
+    template:
+      - alert
+    download:
+      path: /srv/samba/public/
+  
